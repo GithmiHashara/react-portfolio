@@ -1,6 +1,6 @@
 @import "../../vars.css";
 
-/* .navbar {
+.navbar {
   position: relative;
   display: flex;
   align-items: center;
@@ -8,36 +8,18 @@
   padding-top: 61px;
   z-index: 2;
   margin: 0 10%;
-} */
-
-.navbar {
-
-  position: fixed; /* Fixes the navbar at the top */
-  top: 0;
-  left: 0;
-  width: 100%; /* Ensures the navbar spans the full width */
-  display: flex;
-  align-items: center;
-  justify-content:space-around;
-  padding: 10px 2%; /* Adjust padding as needed */
-  z-index: 2;
-  background-color: rgb(33, 0, 77); /* Add a background color to the navbar */
 }
-
 
 .title {
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
-  margin-right:250px;
-  padding-left: 0.02px;
 }
 
 
 .menuBtn {
   display: none;
-  
 }
 
 .menu {
@@ -45,14 +27,13 @@
 }
 
 .menuItems {
-  
   display: flex;
-  gap: 35px;
+  gap: 47px;
   list-style: none;
 }
 
 .menuItems a {
-  font-size: 16px;
+  font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
 }
@@ -69,7 +50,7 @@
     margin-right: 10%;
     flex-direction: column;
     align-items: flex-end;
-    gap: 10px;
+    gap: 11px;
     z-index: 3;
   }
 
@@ -79,21 +60,19 @@
   }
 
   .menuItems {
-    padding-block-start: 50%;
     display: none;
     flex-direction: column;
-    /* align-items: center; */
-    gap: 2px;
+    align-items: center;
+    gap: 13px;
     border-radius: 10px;
     background: rgb(25, 55, 109);
     background: linear-gradient(
       0deg,
-      rgba(38, 68, 123, 0.2) 0%,
-      rgb(21, 62, 138) 100%
-    
+      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 1) 100%
     );
-    padding: 24px 30px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }
 
   .menuOpen {
