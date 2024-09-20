@@ -11,7 +11,7 @@ export const Projects = () => {
           {/* Project A */}
           <div className={styles.project}>
             <div className={styles.projectImageContainer}>
-              <img src="\assects\projects\project.png" alt="Project A" />
+              <img src="\assects\projects\StayNest.png" alt="Project A" />
             </div>
             <h3 className={styles.projectTitle}>Stay Nest</h3>
             <p className={styles.projectDescription}>
@@ -54,7 +54,7 @@ export const Projects = () => {
            {/* Project C */}
            <div className={styles.project}>
             <div className={styles.projectImageContainer}>
-              <img src="\assects\projects\project.png" alt="Project A" />
+              <img src="\assects\projects\Insta.png" alt="Project A" />
             </div>
             <h3 className={styles.projectTitle}>Instagram Clone</h3>
             <p className={styles.projectDescription}>
