@@ -8,6 +8,7 @@
   max-width: 345px;
   margin: 10px; /* Add some margin for spacing between cards */
   text-align: center; /* Center text content */
+ 
 }
 
 .image {
@@ -47,6 +48,8 @@
 
 .links {
   width: 100%;
+
+  
   margin-top: 10px; /* Adjusted for better spacing */
   display: flex;
   justify-content: space-around; /* Distribute links evenly */
