@@ -28,6 +28,27 @@ export const Projects = () => {
             </div>
           </div>
 
+
+            {/* Project D */}
+            <div className={styles.project}>
+            <div className={styles.projectImageContainer}>
+              <img src="\assects\projects\CodifyC.png" alt="Project A" />
+            </div>
+            <h3 className={styles.projectTitle}>Codify-C</h3>
+            <p className={styles.projectDescription}>
+             A mobile app that allows you to learn programming languages on the go.
+            </p>
+            <div className={styles.skills}>
+              <span className={styles.skill}>C#</span>
+              <span className={styles.skill}>FireBase</span>
+              <span className={styles.skill}>Unity</span>
+            </div>
+            <div className={styles.links}>
+              <a href="https://www.example.com" className={styles.link}>Demo</a>
+              <a href="https://www.github.com" className={styles.link}>Source</a>
+            </div>
+          </div>
+
           {/* Project B */}
           <div className={styles.project}
           
@@ -71,38 +92,20 @@ export const Projects = () => {
             </div>
           </div>
 
-           {/* Project D */}
-           <div className={styles.project}>
-            <div className={styles.projectImageContainer}>
-              <img src="\assects\projects\project.png" alt="Project A" />
-            </div>
-            <h3 className={styles.projectTitle}>Codify-C</h3>
-            <p className={styles.projectDescription}>
-             A mobile app that allows you to learn programming languages on the go.
-            </p>
-            <div className={styles.skills}>
-              <span className={styles.skill}>React</span>
-              <span className={styles.skill}>Express</span>
-              <span className={styles.skill}>Node</span>
-            </div>
-            <div className={styles.links}>
-              <a href="https://www.example.com" className={styles.link}>Demo</a>
-              <a href="https://www.github.com" className={styles.link}>Source</a>
-            </div>
-          </div>
+         
            {/* Project A */}
            <div className={styles.project}>
             <div className={styles.projectImageContainer}>
               <img src="\assects\projects\project.png" alt="Project A" />
             </div>
-            <h3 className={styles.projectTitle}>Project A</h3>
+            <h3 className={styles.projectTitle}>Flow-Mate</h3>
             <p className={styles.projectDescription}>
-              This is a project made to learn the latest languages by building an app.
+              This is a saas app that allows you to manage your work flow.
             </p>
             <div className={styles.skills}>
+              <span className={styles.skill}>NextJs</span>
+              <span className={styles.skill}>Bun</span>
               <span className={styles.skill}>React</span>
-              <span className={styles.skill}>Express</span>
-              <span className={styles.skill}>Node</span>
             </div>
             <div className={styles.links}>
               <a href="https://www.example.com" className={styles.link}>Demo</a>
