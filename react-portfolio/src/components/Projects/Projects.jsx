@@ -13,9 +13,9 @@ export const Projects = () => {
             <div className={styles.projectImageContainer}>
               <img src="\assects\projects\project.png" alt="Project A" />
             </div>
-            <h3 className={styles.projectTitle}>Project A</h3>
+            <h3 className={styles.projectTitle}>Stay Nest</h3>
             <p className={styles.projectDescription}>
-              This is a project made to learn the latest languages by building an app.
+            A web app that allows you to make reservations and listinings propeties.
             </p>
             <div className={styles.skills}>
               <span className={styles.skill}>React</span>
@@ -56,9 +56,9 @@ export const Projects = () => {
             <div className={styles.projectImageContainer}>
               <img src="\assects\projects\project.png" alt="Project A" />
             </div>
-            <h3 className={styles.projectTitle}>Project A</h3>
+            <h3 className={styles.projectTitle}>Stay Nest</h3>
             <p className={styles.projectDescription}>
-              This is a project made to learn the latest languages by building an app.
+              A web app allows to make reservations and listinings for stay.
             </p>
             <div className={styles.skills}>
               <span className={styles.skill}>React</span>

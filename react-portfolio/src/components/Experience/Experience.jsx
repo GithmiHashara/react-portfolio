@@ -107,7 +107,7 @@ export const Experience = () => {
           </div>
           <div className={styles.skill}>
             <div className={styles.skillImageContainer}>
-              <img src='\assects\skills\Java.png' alt="CSS" />
+              <img src='\assects\skills\Java.png' alt="CSS" />             
             </div>
             <p>Java</p>
           </div>
