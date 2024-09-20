@@ -126,3 +126,43 @@
     gap: 9px;
   }
 }
+
+.skillImageContainer {
+  background-color: rgb(228, 216, 222);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  position: relative; /* Needed for positioning the pseudo-element */
+  overflow: hidden; /* To hide the animated background overflow */
+}
+
+
+
+/* Style for purple gradient */
+
+.skillImageContainer::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 300%;
+  height: 300%;
+  background: linear-gradient(45deg, #ff7675, #6c5ce7, #00b894); /* Gradient with unique colors */
+  transition: all 0.5s ease; /* Smooth transition */
+  z-index: 0;
+}
+
+.skillImageContainer:hover::before {
+  top: 0;
+  left: 0;
+}
+
+.skillImageContainer img {
+  width: 75px;
+  position: relative; /* Ensure image stays above the background */
+  z-index: 1;
+}
+
