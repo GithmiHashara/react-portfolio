@@ -7,7 +7,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 // Import as default export
 import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 
 
 function App() {
