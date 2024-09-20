@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-
 import styles from "./Navbar.module.css";
-import { getImageUrl } from "../../utils";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,16 +11,16 @@ export const Navbar = () => {
         Portfolio
       </a>
       <div className={styles.menu}>
-        <img
+        <div
           className={styles.menuBtn}
-          src={
-            menuOpen
-              ? getImageUrl("nav/closeIcon.png")
-              : getImageUrl("nav/menuIcon.png")
-          }
-          alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
-        />
+        >
+          {menuOpen ? (
+            <FaTimes size={30} />
+          ) : (
+            <FaBars size={30} />
+          )}
+        </div>
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
