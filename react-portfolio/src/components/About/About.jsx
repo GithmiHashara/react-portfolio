@@ -19,8 +19,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+              I am a passionate Fullstack Developer and undergraduate student with a strong interest in web and game development. With experience in JavaScript, React, and Unity, I've built various projects, including an Instagram clone and a WhatsApp clone. My skills span modern web technologies like Next.js and Firebase, and I’m always eager to explore new frameworks and tools. My journey in technology is driven by a commitment to creating innovative solutions and a curiosity for the latest advancements in the field.
               </p>
             </div>
           </li>
