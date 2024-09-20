@@ -64,8 +64,16 @@ function Contact() {
       <FaGithub size={24} /> {/* GitHub Icon */}
       <a href="https://github.com/GithmiHashara">github.com/GithmiHashara</a>
    </li>
+
+   <section id="footer" className={styles.container}>
+        <p>
+        &copy; 2024 Githmi Hashara <br />
+        </p>
+    </section>
 </ul>
     </section>
+
+    
   );
 }
 
