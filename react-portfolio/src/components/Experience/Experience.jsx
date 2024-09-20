@@ -59,7 +59,43 @@ export const Experience = () => {
         <div className={styles.skills}>
           <div className={styles.skill}>
             <div className={styles.skillImageContainer}>
-              <img src='assects\skills\html.png' alt="HTML" />
+              <img src='\assects\skills\Reactt.png' alt="HTML" />
+            </div>
+            <p>React</p>
+          </div>
+          <div className={styles.skill}>
+            <div className={styles.skillImageContainer}>
+              <img src='\assects\skills\Next.png' alt="CSS" />
+            </div>
+            <p>Next.js</p>
+          </div>
+          <div className={styles.skill}>
+            <div className={styles.skillImageContainer}>
+              <img src='\assects\skills\js.png' alt="React" />
+            </div>
+            <p>JavaScript</p>
+          </div>
+          <div className={styles.skill}>
+            <div className={styles.skillImageContainer}>
+              <img src='\assects\skills\TS.png' alt="Node" />
+            </div>
+            <p>TypeScript</p>
+          </div>
+          <div className={styles.skill}>
+            <div className={styles.skillImageContainer}>
+              <img src="\assects\skills\Firebase.png" alt="FireBase" />
+            </div>
+            <p>FireBase</p>
+          </div>
+          <div className={styles.skill}>
+            <div className={styles.skillImageContainer}>
+              <img src='assects\skills\mongodb.png'  alt="MongoDB" />
+            </div>
+            <p>MongoDB</p>
+          </div>
+          <div className={styles.skill}>
+            <div className={styles.skillImageContainer}>
+              <img src="\assects\skills\html new.png" alt="Figma" />
             </div>
             <p>HTML</p>
           </div>
@@ -71,51 +107,15 @@ export const Experience = () => {
           </div>
           <div className={styles.skill}>
             <div className={styles.skillImageContainer}>
-              <img src='assects\skills\react.png' alt="React" />
+              <img src='\assects\skills\Java.png' alt="CSS" />
             </div>
-            <p>React</p>
+            <p>Java</p>
           </div>
           <div className={styles.skill}>
             <div className={styles.skillImageContainer}>
-              <img src='assects\skills\node.png' alt="Node" />
+              <img src='\assects\skills\Unity.png' alt="CSS" />
             </div>
-            <p>Node</p>
-          </div>
-          <div className={styles.skill}>
-            <div className={styles.skillImageContainer}>
-              <img src="assects\skills\5.png" alt="Next.Js" />
-            </div>
-            <p>Next.js</p>
-          </div>
-          <div className={styles.skill}>
-            <div className={styles.skillImageContainer}>
-              <img src='assects\skills\mongodb.png'  alt="MongoDB" />
-            </div>
-            <p>MongoDB</p>
-          </div>
-          <div className={styles.skill}>
-            <div className={styles.skillImageContainer}>
-              <img src="assects\skills\javascript-js-icon-2048x2048-nyxvtvk0.png" alt="Figma" />
-            </div>
-            <p>JavaScript</p>
-          </div>
-          <div className={styles.skill}>
-            <div className={styles.skillImageContainer}>
-              <img src='assects\skills\css.png' alt="CSS" />
-            </div>
-            <p>CSS</p>
-          </div>
-          <div className={styles.skill}>
-            <div className={styles.skillImageContainer}>
-              <img src='assects\skills\css.png' alt="CSS" />
-            </div>
-            <p>CSS</p>
-          </div>
-          <div className={styles.skill}>
-            <div className={styles.skillImageContainer}>
-              <img src='assects\skills\css.png' alt="CSS" />
-            </div>
-            <p>CSS</p>
+            <p>Unity</p>
           </div>
         </div>
       </div>
