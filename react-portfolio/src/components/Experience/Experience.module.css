@@ -26,7 +26,7 @@
   width: 45%;
   display: flex;
   flex-wrap: wrap;
-  gap: 37px;
+  gap: 20px;
 }
 
 .skill {
@@ -37,14 +37,22 @@
 }
 
 .skillImageContainer {
-  background-color: var(--color-secondary);
+  background-color:rgb(228, 216, 222);
   border-radius: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 120px;
   height: 120px;
+  transition: transform 0.3s ease;
+
 }
+
+
+.skillImageContainer:hover {
+  transform: scale(1.1); /* Zoom in slightly */
+}
+
 
 .skillImageContainer img {
   width: 75px;
