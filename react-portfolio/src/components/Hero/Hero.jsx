@@ -20,12 +20,16 @@ export const Hero = () => {
 
   const [text] = useTypewriter({
     words: [
-      "Web Developer",
-      "TechInnovator",
+      
+      "Undergraduate",
+      "Web Developer",      
       "NextJS Developer",
       "FullStack Developer",
       "Game Developer",
-      "Tech Explorer",           
+      "Tech Explorer", 
+      "React Developer",
+      "Unity Developer",
+
     ],
     loop: true,
     delaySpeed: 1000,
