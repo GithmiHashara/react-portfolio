@@ -66,11 +66,10 @@ export const Hero = () => {
 
       </div>
       <img
-  src="/images/heroImage.png"
-  alt="Hero image of me"
-  className={styles.heroImg}
-/>
-
+        src='assects\hero\heroImage.png'
+        alt="Hero image of me"
+        className={styles.heroImg}
+      />
 
       
       <div className={styles.topBlur} />
