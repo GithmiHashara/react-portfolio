@@ -1,10 +1,13 @@
 import styles from "./App.module.css";
 import { About } from "./components/About/About";
-import { Contact } from "./components/Contact/Contact";
+//import { Contact } from "./components/Contact/Contact";
 import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
+// Import as default export
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -16,6 +19,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }
