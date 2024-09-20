@@ -35,9 +35,9 @@ export const Projects = () => {
             <div className={styles.projectImageContainer}>
               <img src="\assects\projects\Whatsapp.png" alt="Project B" />
             </div>
-            <h3 className={styles.projectTitle}>Project B</h3>
+            <h3 className={styles.projectTitle}>WhatsApp Clone</h3>
             <p className={styles.projectDescription}>
-              This is a project made to learn the latest languages by building an app.
+              A WhatsApp clone made using Next Js , Firebase and Tailwind Css.
             </p>
             <div className={styles.skills}>
               <span className={styles.skill}>React</span>
@@ -56,9 +56,9 @@ export const Projects = () => {
             <div className={styles.projectImageContainer}>
               <img src="\assects\projects\project.png" alt="Project A" />
             </div>
-            <h3 className={styles.projectTitle}>Stay Nest</h3>
+            <h3 className={styles.projectTitle}>Instagram Clone</h3>
             <p className={styles.projectDescription}>
-              A web app allows to make reservations and listinings for stay.
+              A Instagram clone made using React, Firebase, and Tailwind Css.
             </p>
             <div className={styles.skills}>
               <span className={styles.skill}>React</span>
@@ -76,9 +76,9 @@ export const Projects = () => {
             <div className={styles.projectImageContainer}>
               <img src="\assects\projects\project.png" alt="Project A" />
             </div>
-            <h3 className={styles.projectTitle}>Project A</h3>
+            <h3 className={styles.projectTitle}>Codify-C</h3>
             <p className={styles.projectDescription}>
-              This is a project made to learn the latest languages by building an app.
+             A mobile app that allows you to learn programming languages on the go.
             </p>
             <div className={styles.skills}>
               <span className={styles.skill}>React</span>
