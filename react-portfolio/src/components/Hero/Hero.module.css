@@ -175,6 +175,7 @@
   .title {
     font-size: 20px; /* Smaller size for mobile */
     color: aliceblue;
+    z-index: 2;
   }
 
   .description {
