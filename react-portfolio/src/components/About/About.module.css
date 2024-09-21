@@ -23,6 +23,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  
 }
 
 /* .aboutImage {
@@ -57,6 +58,7 @@
 }
 
 .aboutItem {
+ 
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -65,8 +67,8 @@
   padding: 25px;
   background-image: linear-gradient(
     90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
+    rgba(75, 0, 130, 0.6) 0%, /* Indigo color */
+    rgba(255, 0, 255, 0.4) 100% /* Magenta color */
     
   );
   background-size: 0 100%;
@@ -104,10 +106,36 @@
 
   .aboutItems {
     margin-top: 29px;
+    padding-left: 15px; /* Add padding to avoid touching the border */
+    padding-right: 15px; /* Add padding on the right side */
   }
 
   .aboutItem {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 20px;
   }
+
+  .aboutItemText p {
+    margin-left: 0; /* Ensure the text does not shift unnecessarily */
+  }
+}
+
+
+
+
+
+
+.aboutItemText p {
+  font-size: 25px;
+  text-align: justify; /* Justifies the paragraph content */
+  margin-left: 15px; /* Increases space between the cursor image and the text */
+}
+
+.aboutItem:hover {
+  background-size: 100% 100%;
+  background-image: linear-gradient(
+    90deg,
+    rgba(75, 0, 130, 0.6) 0%, /* Indigo color */
+    rgba(255, 0, 255, 0.4) 100% /* Magenta color */
+  );
 }
