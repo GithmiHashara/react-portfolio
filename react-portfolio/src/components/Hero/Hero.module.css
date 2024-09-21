@@ -165,3 +165,26 @@
   
   background-color: var(--color-secondary); /* Hover color */
 }
+
+
+
+
+
+
+@media screen and (max-width: 480px) { /* You can adjust the max-width as needed */
+  .title {
+    font-size: 20px; /* Smaller size for mobile */
+  }
+
+  .description {
+    font-size: 15px; /* Smaller size for mobile */
+  }
+
+  .contactBtn {
+    font-size: 15px; /* Smaller size for mobile */
+  }
+
+  .heroImg {
+    width: 80%; /* Adjust image size for mobile if needed */
+  }
+}
