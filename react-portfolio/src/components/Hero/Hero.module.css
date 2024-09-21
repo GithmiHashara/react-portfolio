@@ -31,9 +31,9 @@
 .title {
   
   font-size: 62px;
-  font-weight: 900;
+  font-weight: 600;  
   margin-bottom: 10px;
-  font-family: var(--font-roboto);
+  font-family: mukta, sans-serif;
  
   background: linear-gradient(
     90deg,
@@ -43,6 +43,9 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
+
+
 
 .description {
   font-size: 30px;
