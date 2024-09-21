@@ -18,13 +18,14 @@ export const Projects = () => {
             A web app that allows you to make reservations and listinings propeties.
             </p>
             <div className={styles.skills}>
+              <span className={styles.skill}>NextJS</span>
               <span className={styles.skill}>React</span>
-              <span className={styles.skill}>Express</span>
+              <span className={styles.skill}>MongoDB</span>
               <span className={styles.skill}>Node</span>
             </div>
             <div className={styles.links}>
-              <a href="https://www.example.com" className={styles.link}>Demo</a>
-              <a href="https://www.github.com" className={styles.link}>Source</a>
+              <a href="https://www.linkedin.com/posts/githmi-hashara-387127260_nextjs-react-tailwindcss-activity-7242641510943318016-UI16?utm_source=share&utm_medium=member_desktop" className={styles.link}>Demo</a>
+              <a href="https://github.com/GithmiHashara/StayNest" className={styles.link}>Source</a>
             </div>
           </div>
 
@@ -44,7 +45,7 @@ export const Projects = () => {
               <span className={styles.skill}>Unity</span>
             </div>
             <div className={styles.links}>
-              <a href="https://www.example.com" className={styles.link}>Demo</a>
+              <a href="https://www.linkedin.com/posts/githmi-hashara-387127260_cprogramming-gamebasedlearning-capstoneproject-activity-7235196647113117698-SpVT?utm_source=share&utm_medium=member_desktop" className={styles.link}>Demo</a>
               <a href="https://www.github.com" className={styles.link}>Source</a>
             </div>
           </div>
@@ -67,8 +68,8 @@ export const Projects = () => {
               <span className={styles.skill}>Sass</span>
             </div>
             <div className={styles.links}>
-              <a href="https://www.example.com" className={styles.link}>Demo</a>
-              <a href="https://www.github.com" className={styles.link}>Source</a>
+              <a href="https://www.linkedin.com/posts/githmi-hashara-387127260_proud-to-showcase-my-nextjs-14-whatsapp-activity-7232022317973786625-l08b?utm_source=share&utm_medium=member_desktop" className={styles.link}>Demo</a>
+              <a href="https://github.com/GithmiHashara/Whatsapp-clone" className={styles.link}>Source</a>
             </div>
           </div>
 
@@ -87,12 +88,33 @@ export const Projects = () => {
               <span className={styles.skill}>Node</span>
             </div>
             <div className={styles.links}>
-              <a href="https://www.example.com" className={styles.link}>Demo</a>
-              <a href="https://www.github.com" className={styles.link}>Source</a>
+              <a href="https://www.linkedin.com/posts/githmi-hashara-387127260_webdevelopment-reactjs-firebase-activity-7222135640765652992-xrCI?utm_source=share&utm_medium=member_desktop" className={styles.link}>Demo</a>
+              <a href="https://github.com/GithmiHashara/Amarise-Social-App" className={styles.link}>Source</a>
             </div>
           </div>
 
          
+           {/* Project A */}
+           <div className={styles.project}>
+            <div className={styles.projectImageContainer}>
+              <img src="\assects\projects\portfolio.png" alt="Project A" />
+            </div>
+            <h3 className={styles.projectTitle}>React-Portfolio</h3>
+            <p className={styles.projectDescription}>
+              This is my portfolio website made using NextJs and Tailwind Css.
+            </p>
+            <div className={styles.skills}>
+              <span className={styles.skill}>NextJs</span>
+              <span className={styles.skill}>Tailwind css</span>
+              <span className={styles.skill}>React</span>
+            </div>
+            <div className={styles.links}>
+              <a href="" className={styles.link}>Demo</a>
+              <a href="" className={styles.link}>Source</a>
+            </div>
+          </div>
+
+
            {/* Project A */}
            <div className={styles.project}>
             <div className={styles.projectImageContainer}>
@@ -108,8 +130,8 @@ export const Projects = () => {
               <span className={styles.skill}>React</span>
             </div>
             <div className={styles.links}>
-              <a href="https://www.example.com" className={styles.link}>Demo</a>
-              <a href="https://www.github.com" className={styles.link}>Source</a>
+              <a href="" className={styles.link}>Demo</a>
+              <a href="" className={styles.link}>Source</a>
             </div>
           </div>
 
