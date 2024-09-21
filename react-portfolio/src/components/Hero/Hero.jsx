@@ -40,11 +40,10 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Githmi</h1>
+        <h1 className={styles.title}>Hi, I'm Githmi Hashara</h1>
        
         <p className={styles.description} >
-          I'm a full-stack developer with 5 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+        I'm an undergraduate, full-stack developer with a passion for building dynamic, innovative web applications !
         </p>
           {/* Typewriter effect added here */}        
           <h2 className={styles.typewriter}>{text}</h2>
